@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView"
+        android:text="WELCOME TO ALC 4.0"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#001122"
+        />
+
+    <ImageView
+        android:id="@+id/imgView2"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_below="@id/txtView"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/alc" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgView2"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dp"
+        android:background="#4B88E0"
+        android:text="About ALC" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="54dp"
+        android:text="My Profile"
+        android:background="#4B88E0"/>
+
+
+</RelativeLayout>
